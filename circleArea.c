@@ -10,12 +10,13 @@
  */
 
 #include <stdio.h>
+#define pi 3.1416
 int main() {
   float radius, area;
   printf("Enter the radius of the circle: ");
   scanf("%f", &radius);
 
-  area = 3.1416 * radius * radius;
+  area = pi * radius * radius;
 
   printf("Area of the circle = %.2f", area);
   return 0;
